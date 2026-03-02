@@ -13,7 +13,7 @@ RUN pip install -r requirements.txt
 COPY ./app/ /app/
 
 # change default port
-ENV STREAMLIT_SERVER_PORT=8080
+ENV STREAMLIT_SERVER_PORT=3000
 
 # change theme of the app
 ENV STREAMLIT_THEME_BASE=light
@@ -21,6 +21,6 @@ ENV STREAMLIT_THEME_BASE=light
 # docs.streamlit.io/library/advanced-features/configuration#telemetry
 ENV STREAMLIT_GATHER_USAGE_STATS=false
 
-EXPOSE 8080
+EXPOSE 3000
 
 CMD [ "streamlit", "run", "main.py" ]
