@@ -1,6 +1,3 @@
-[![CI](https://github.com/mebaysan/Turkey-Earthquake-Crisis-App/actions/workflows/ci.yml/badge.svg)](https://github.com/mebaysan/Turkey-Earthquake-Crisis-App/actions/workflows/ci.yml) [![Update Docker Hub Description](https://github.com/mebaysan/Turkey-Earthquake-Crisis-App/actions/workflows/dockerhub-description.yml/badge.svg)](https://github.com/mebaysan/Turkey-Earthquake-Crisis-App/actions/workflows/dockerhub-description.yml)
-
-
 - [Introduction](#introduction)
 - [Docker Image on the Hub](#docker-image-on-the-hub)
 - [Manual](#manual)
